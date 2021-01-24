@@ -17,6 +17,7 @@ CREATE TABLE jugadores (
     posicion VARCHAR(255),
     equipo VARCHAR(180),
     nacionalidad VARCHAR(180),
+    imagen VARCHAR(300),
     fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 // END SCRIPT//
